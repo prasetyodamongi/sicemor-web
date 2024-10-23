@@ -1,0 +1,9 @@
+.btn-no-ya {
+    background-color: #bd1120;
+    margin-left: 8px;
+    margin-right: 8px;
+}
+
+.btn-no-ya:hover {
+    background-color: #850f19;
+}

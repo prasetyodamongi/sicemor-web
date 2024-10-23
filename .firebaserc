@@ -1,0 +1,10 @@
+{
+  "projects": {
+    "default": "sicemor-app",
+    "build": "sicemor-app",
+    "sicemor": "sicemor-app"
+  },
+  "targets": {},
+  "etags": {},
+  "dataconnectEmulatorConfig": {}
+}
