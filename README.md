@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # secemor-web
 SICEMOR WEB by pcoding
 
