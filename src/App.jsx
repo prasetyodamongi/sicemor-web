@@ -7,18 +7,11 @@ import { Route, Routes } from 'react-router-dom';
 
 function App() {
 
-  const handleClickLogin = () => {
-    alert('Fitur login belum tersedia!')
-  }
-
   return (
     <>
       <div className='container'>
         <header className='header'>
           <img src={logo} className='logo'></img>
-          <button className='login-button' onClick={handleClickLogin}>
-            Login
-          </button>
         </header>
         <Routes>
           <Route path='/kuisioner' element={<Quiz />} />

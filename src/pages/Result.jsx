@@ -32,6 +32,14 @@ function Result() {
     navigate('/', { replace: true });
   }
 
+  const getScoreDescription = () => {
+    if (totalScore >= 90) return "Skor Anda Sangat Tinggi";
+    if (totalScore >= 80) return "Skor Anda Tinggi";
+    if (totalScore >= 60) return "Skor Anda Sedang";
+    if (totalScore >= 40) return "Skor Anda Rendah";
+    return "Skor Anda Sangat Rendah";
+  }
+
   return (
     <div className="results-container">
       <main className="body">
@@ -39,6 +47,7 @@ function Result() {
           <h1 className='title-txt'>Hasil Kuisioner</h1>
           <div className="total-score">
             <h2>Skor Kecerdasan Moral Anda: {totalScore}</h2>
+            <h3>{getScoreDescription()}</h3>
           </div>
           <div className="competency-scores">
             {competencyScores.map((score, index) => (
